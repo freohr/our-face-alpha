@@ -1,0 +1,99 @@
+/* Main Layout */
+
+body
+{
+	margin: auto;
+	padding-top: 50px;
+} 
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+#cadre > *
+{
+	height: 100%;
+}
+
+#menu
+{
+	width: 20%;
+	float: left;
+}
+
+#flux{
+	width: 600px;
+	margin: auto;
+}
+
+#cadre
+{
+	width:80%;
+	float:right;
+}
+
+#header {
+	text-align: center;
+}
+
+/* Content */
+
+#profil_name
+{
+	text-align: left;
+	width:70%;
+	margin: auto;
+}
+#picture
+{
+	float:left;
+	width: 20%
+}
+#details
+{
+	float:left;
+	width: 75%;
+	text-align: left;
+}
+
+/* Profil/Mur */
+
+
+
+/* Header */
+
+#header
+{
+	background-color: #FF0000;
+	border: 1px solid #FF0000;
+}
+
+#header #title
+{
+	width: 10%;
+	float:left;
+}
+
+/* Bloc Identifiant */
+
+#block_identifiant
+{
+	display: table;
+	border:1px solid;
+}
+
+#block_identifiant:hover #form_identification
+{
+	display: block;
+}
+
+#block_identifiant .field{
+	display: table-row;
+}
+
+#block_identifiant .field > *
+{
+	display: table-cell;
+}
+
