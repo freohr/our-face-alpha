@@ -23,9 +23,9 @@
 			</div>
 			<div class="collapse navbar-collapse" id="navbar">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#about">Profil</a></li>
-					<li><a href="#contact">Contact</a></li>
+					<li class="active"><a href="BrotherBook.php?action=index">Home</a></li>
+					<li><a href="BrotherBook.php?action=profil">Profil</a></li>
+					<!-- <li><a href="#contact">Contact</a></li> -->
 				</ul>
 			</div><!--/.nav-collapse -->
 		</div>

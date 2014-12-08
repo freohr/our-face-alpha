@@ -9,6 +9,7 @@ body
 .starter-template {
   padding: 40px 15px;
   text-align: center;
+  display: block;
 }
 
 #cadre > *
@@ -59,7 +60,69 @@ body
 
 /* Profil/Mur */
 
+.status{
+	width:800px;
+	display: inline-block;
+}
 
+.profil{
+text-align: left;
+display: inline-block;
+float: left;
+width: 100%;
+}
+
+.profil .avatar{
+	text-align: center;
+	vertical-align: center;
+	width:20%;
+	float:left;
+}
+
+.profil .details{
+	width: 80%;
+	float:left;
+}
+
+.profil .name{
+	
+}
+
+.profil .informations{
+	
+}
+
+#posts {
+	width: 80%;
+	margin: auto;
+	
+}
+
+.author{
+	width:20%;
+	float:left;
+	display: block;
+}
+
+.author_avatar{
+	width:50%;
+}
+
+.author_avatar > img
+{
+	width: 80%;
+	margin: auto;
+}
+
+.author_name{
+
+}
+
+.message{
+	width:80%;
+	float:left;
+	padding-top: 10px;
+}
 
 /* Header */
 
